@@ -1,28 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="author" content="Wololo">
   <meta name="google" content="notranslate" />
   <meta name="msapplication-tap-highlight" content="no">
 
-  <meta content="description" name="description">
-
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
   <link href="./assets/favicon.ico" rel="icon">
 
-  <title>MartAndreU</title>
+  <?php require_once 'datos.php' ?>
+
+  <meta name="description" content="<?= $descripcion ?>">
+  <title><?= $nombre ?></title>
 
   <style>
-  @import url(https://fonts.googleapis.com/css?family=Hind+Siliguri:300,600);
+    @import url(https://fonts.googleapis.com/css?family=Hind+Siliguri:300,600);
 
-  @font-face {
-    font-family: "VAGRoundedBT-Regular";
-    src: url(assets/VAGRounded_BT.ttf) format("truetype");
-  }
+    @font-face {
+      font-family: "VAGRoundedBT-Regular";
+      src: url(assets/VAGRounded_BT.ttf) format("truetype");
+    }
   </style>
 
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -57,17 +57,6 @@
   }
   </style>
 </head>
-
-<?php
-
-  $nombre = 'Andreu y Marta';
-  $descripcion = 'WELCOME TO MOUNTAIN WEBSITE. AGENCY IN BERLIN.';
-  $facebook_url = 'https://facebook.com/';
-  $twitter_url = 'https://twitter.com/';
-  $linked_url = 'https://www.linkedin.com/';
-  $instagram_url = 'https://www.instagram.com/';
-
-?>
 
 <body>
   <?php include("sections/barra.php") ?>
@@ -129,7 +118,7 @@
             <div class="row">
               <div class="col-xs-12 col-sm-7">
                 <p><?= $descripcion ?></p>
-                <p><small>Website created with <a href="http://www.mashup-template.com/" title="Create website with free html template">Mashup Template</a>/<a href="https://www.unsplash.com/" title="Beautiful Free Images">Unsplash</a></small>
+                <p><small>Thanks to <a href="http://www.mashup-template.com/" target="_blank" title="Create website with free html template">Mashup Template</a>/<a href="https://www.unsplash.com/" target="_blank" title="Beautiful Free Images">Unsplash</a> for this template! <i class="fa fa-fw fa-heart-o"></i></small>
                 </p>
               </div>
               <div class="col-xs-12 col-sm-5">
