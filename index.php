@@ -27,7 +27,6 @@
 
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="./main.550dcf66.css" rel="stylesheet">
-  <link href="./assets/css/modal.css" rel="stylesheet">
   <style>
   .ult-noticias {
     max-width: 400px;
@@ -134,7 +133,7 @@
             <div class="row">
               <div class="col-xs-12 col-sm-7">
                 <p><?= $descripcion ?></p>
-                <p><small>Thanks to <a href="http://www.mashup-template.com/" target="_blank" title="Create website with free html template">Mashup Template</a>/<a href="https://www.unsplash.com/" target="_blank" title="Beautiful Free Images">Unsplash</a> for this template! <i class="fa fa-fw fa-heart-o"></i></small>
+                <p><small>Thanks to <a href="http://www.mashup-template.com/" target="_blank" rel="nofollow" title="Create website with free html template">Mashup Template</a>/<a href="https://www.unsplash.com/" target="_blank" rel="nofollow"  title="Beautiful Free Images">Unsplash</a> for this template! <i class="fa fa-fw fa-heart-o"></i></small>
                 </p>
               </div>
               <div class="col-xs-12 col-sm-5">

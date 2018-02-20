@@ -9,11 +9,13 @@
       <div class="text-right">
         <h3 class="template-title-example">Últimas entradas</h3>
         <?php foreach ($noticias as $noticia): ?>
-          <p><a href="<?= $noticia['url'] ?>"><?= $noticia['titulo'] ?></a></p>
+          <p><a href="<?= $noticia['url'] ?>" target="_blank" rel="nofollow"><?= $noticia['titulo'] ?></a></p>
         <?php endforeach; ?>
       </div>
       <br>
-      <?php include("sections/socialbuttons.php") ?>
+      <div class="pull-right">
+        <?php include("sections/socialbuttons.php") ?>
+      </div>
     </div>
   </div>
 </div>

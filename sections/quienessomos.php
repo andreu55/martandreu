@@ -14,7 +14,7 @@
       <p><?= $u['descr'] ?></p>
       <p>
         <?php foreach ($u['social'] as $url): ?>
-          <a href="<?= $url['url'] ?>" class="social-round-icon fa-icon" title="">
+          <a href="<?= $url['url'] ?>" target="_blank" rel="nofollow" class="social-round-icon fa-icon" title="">
             <i class="fa <?= $url['icon'] ?>" aria-hidden="true"></i>
           </a>
         <?php endforeach; ?>
