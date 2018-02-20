@@ -27,7 +27,17 @@
 
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="./main.550dcf66.css" rel="stylesheet">
+  <link href="./assets/css/modal.css" rel="stylesheet">
   <style>
+  .ult-noticias {
+    max-width: 400px;
+    margin-top: -65px;
+    margin-bottom: 65px;
+    padding-right: 20px;
+  }
+  .que-hacemos {
+    min-height:450px;
+  }
   .mediaimg {
     clip-path: polygon(0 0, 0 100%, 0 100%, 100% 0);
   }
@@ -37,22 +47,28 @@
     bottom: 0;
     height: 60%;
   }
-  .mediohueco > div {
+  .mediohueco > .texto {
     margin: 0 15px
   }
 
   @media (max-width:990px){
-    .mediohueco > div {
+    .mediohueco > .texto {
       text-align: right;
     }
   }
 
   @media (max-width:768px){
+    .ult-noticias {
+      max-width: 100%;
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
     .mediohueco {
       height: 90%;
     }
-    .mediohueco > div {
-      margin: 0 15px 30px
+    .mediohueco > .texto {
+      margin: 0 20px 30px;
+      padding-top: 20px;
     }
   }
   </style>
@@ -151,6 +167,16 @@
   </script>
   -->
 
-<script type="text/javascript" src="./main.0cf8b554.js"></script></body>
+<script type="text/javascript" src="./main.0cf8b554.js"></script>
 
+<?php /*
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+  <script>
+  $(function() {
+  $('#foto-andreu').attr('src', './assets/images/<?= $nosotros[0]['img-mobile'] ?>')
+  });
+  </script>
+*/ ?>
+
+</body>
 </html>
