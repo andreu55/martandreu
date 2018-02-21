@@ -9,7 +9,7 @@
         <a href="#contacto" class="btn btn-default navbar-btn navbar-toggle collapsed pull-right" title="¡Contacta con nosotros!">Contacto</a>
 
         <a class="navbar-brand" href="./" title="¡<?= $nombre ?>!">
-          <img src="./assets/images/logo.svg" width="35" height="35" class="navbar-logo-img" alt="<?= $nombre ?> logo">
+          <img src="./assets/images/logo.svg" class="navbar-logo-img" alt="<?= $nombre ?> logo">
           &nbsp; <?= $nombre ?>
         </a>
       </div>

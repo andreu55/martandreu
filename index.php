@@ -28,6 +28,10 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="./main.550dcf66.css" rel="stylesheet">
   <style>
+  .navbar-logo-img {
+    height: 40px;
+    width: 40px;
+  }
   .ult-noticias {
     max-width: 400px;
     margin-top: -65px;
@@ -66,7 +70,7 @@
       height: 90%;
     }
     .mediohueco > .texto {
-      margin: 0 20px 30px;
+      margin: 0 0px 30px 45px;
       padding-top: 20px;
     }
   }

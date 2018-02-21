@@ -1,6 +1,6 @@
 <div class="que-hacemos">
-  <div class="row" style="position:relative">
-    <div class="col-xs-12">
+  <div class="row" style="position:relative;margin-right:0">
+    <div class="col-xs-12" style="padding-right:0">
       <img class="img-responsive mediaimg" src="./assets/images/img-06.jpg" alt="">
     </div>
     <div class="col-xs-12 col-sm-6 col-sm-offset-6 mediohueco">
