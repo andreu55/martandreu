@@ -6,14 +6,8 @@
     <div class="col-xs-12 col-sm-6 col-sm-offset-6 mediohueco">
       <!-- col-md-offset-2 -->
       <div class="texto">
-        <h2>¿Qué hacemos?</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus at sem quis varius.<br>
-          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus iaculis magna sagittis elit sagittis, at hendrerit lorem venenatis. Morbi accumsan iaculis blandit. Cras ultrices hendrerit nisl.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus at sem quis varius.
-        </p>
+        <h2><?= $que_hacemos ?></h2>
+        <?= $que_hacemos_text ?>
       </div>
     </div>
   </div>

@@ -1,7 +1,7 @@
 <div class="row section-container-spacer">
   <div class="col-xs-12 col-md-12">
-    <h2>Quienes somos</h2>
-    <p>Praesent at feugiat est, at faucibus ipsum. Aenean condimentum mauris vel malesuada pulvinar. <br>Vestibulum sit amet hendrerit leo, quis vehicula mi.</p>
+    <h2><?= $quienes_somos ?></h2>
+    <?= $quienes_somos_text ?>
   </div>
 </div>
 <div class="row">

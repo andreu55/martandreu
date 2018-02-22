@@ -6,6 +6,25 @@ $descripcion = 'WELCOME TO MOUNTAIN WEBSITE. AGENCY IN BERLIN.';
 $contacto = 'Contact';
 $ult_entradas = 'Last posts';
 
+$que_hacemos = 'What do we do?';
+$que_hacemos_text = '<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus at sem quis varius.<br>
+  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus iaculis magna sagittis elit sagittis, at hendrerit lorem venenatis. Morbi accumsan iaculis blandit. Cras ultrices hendrerit nisl.
+</p>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus at sem quis varius.
+</p>';
+
+$quienes_somos = 'Who we are';
+$quienes_somos_text = '<p>Praesent at feugiat est, at faucibus ipsum. Aenean condimentum mauris vel malesuada pulvinar. <br>Vestibulum sit amet hendrerit leo, quis vehicula mi.</p>';
+
+$getInTouch = 'Get in touch';
+$getInTouch_text = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
+
+$escribenos = 'Write aquí!';
+
+$send = 'Send';
+
 $carousel = [
   [
     'titulo' => 'Moon',

@@ -1,7 +1,7 @@
 <div class="section-container-spacer">
-  <h2 class="text-center">Get in touch</h2>
-  <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
+  <h2 class="text-center"><?= $getInTouch ?></h2>
+  <p class="text-center">
+    <?= $getInTouch_text ?>
   </p>
 </div>
 <div class="card-container">
@@ -13,9 +13,9 @@
             <input type="email" class="form-control" id="email" placeholder="Email">
           </div>
           <div class="form-group">
-            <textarea class="form-control" rows="5" placeholder="¡Escríbenos aquí!"></textarea>
+            <textarea class="form-control" rows="5" placeholder="<?= $escribenos ?>"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
+          <button type="submit" class="btn btn-primary"><?= $send ?></button>
         </div>
         <div class="col-md-5">
           <ul class="list-unstyled address-container">
