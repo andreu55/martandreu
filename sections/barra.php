@@ -6,7 +6,7 @@
       <div class="navbar-header">
 
         <!-- Este el boton que sale en la versión movil! -->
-        <a href="#contacto" class="btn btn-default navbar-btn navbar-toggle collapsed pull-right" title="¡Contacta con nosotros!">Contacto</a>
+        <a href="#contacto" class="btn btn-default navbar-btn navbar-toggle collapsed pull-right" title="¡Contacta con nosotros!"><?= $contacto ?></a>
 
         <a class="navbar-brand" href="./" title="¡<?= $nombre ?>!">
           <img src="./assets/images/logo.svg" class="navbar-logo-img" alt="<?= $nombre ?> logo">
@@ -21,7 +21,7 @@
           <li><p>
 
             <!-- Este el el boton que sale en la version esritorio! -->
-            <a href="#contacto" class="btn btn-default navbar-btn" title="¡Contacta con nosotros!">Contacto</a>
+            <a href="#contacto" class="btn btn-default navbar-btn" title="¡Contacta con nosotros!"><?= $contacto ?></a>
           </p></li>
         </ul>
       </div>

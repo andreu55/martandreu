@@ -11,7 +11,19 @@
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
   <link href="./assets/favicon.ico" rel="icon">
 
-  <?php require_once 'datos.php' ?>
+  <?php
+
+    $path = $_SERVER['PATH_INFO'] ?? '';
+    $path = trim($path, '/');
+
+    $permitidos = ['es', 'en'];
+
+    if (!$path || !in_array($path, $permitidos)) {
+      if (strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], 'es') !== false) { $path = 'es'; }
+      else { $path = 'en'; }
+    }
+    require_once 'datos_' . $path . '.php';
+  ?>
 
   <meta name="description" content="<?= $descripcion ?>">
   <title><?= $nombre ?></title>
@@ -78,16 +90,16 @@
 </head>
 
 <body>
-  <?php include("sections/barra.php") ?>
+  <?php include "sections/barra.php" ?>
 
   <!-- Portada -->
   <div class="hero-full-container background-image-container white-text-container">
-    <?php include("sections/portada.php") ?>
+    <?php include "sections/portada.php" ?>
   </div>
 
   <!-- Qué hacemos -->
   <div class="section-container">
-    <?php include("sections/quehacemos.php") ?>
+    <?php include "sections/quehacemos.php" ?>
   </div>
 
   <!-- Carousel -->
@@ -97,7 +109,7 @@
         <div class="col-xs-12">
           <div id="carousel-example-generic" class="carousel carousel-fade slide" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
-              <?php include("sections/carrousel.php") ?>
+              <?php include "sections/carrousel.php" ?>
             </div>
           </div>
         </div>
@@ -108,7 +120,7 @@
   <!-- Quienes somos -->
   <div class="section-container">
     <div class="container text-center">
-      <?php include("sections/quienessomos.php") ?>
+      <?php include "sections/quienessomos.php" ?>
     </div>
   </div>
 
@@ -117,7 +129,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-md-12">
-          <?php include("sections/contacto.php") ?>
+          <?php include "sections/contacto.php" ?>
         </div>
       </div>
     </div>
@@ -141,7 +153,7 @@
                 </p>
               </div>
               <div class="col-xs-12 col-sm-5">
-                <?php include("sections/socialbuttons.php") ?>
+                <?php include "sections/socialbuttons.php" ?>
               </div>
             </div>
           </div>

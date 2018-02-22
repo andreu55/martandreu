@@ -7,7 +7,7 @@
     <!-- col-sm-offset-8  -->
     <div class="col-sm-4 pull-right ult-noticias">
       <div class="text-right">
-        <h3 class="template-title-example">Últimas entradas</h3>
+        <h3 class="template-title-example"><?= $ult_entradas ?></h3>
         <?php foreach ($noticias as $noticia): ?>
           <p><a href="<?= $noticia['url'] ?>" target="_blank" rel="nofollow"><?= $noticia['titulo'] ?></a></p>
         <?php endforeach; ?>
