@@ -41,8 +41,8 @@
   <link href="./main.550dcf66.css" rel="stylesheet">
   <style>
   .navbar-logo-img {
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
   }
   .ult-noticias {
     max-width: 400px;
