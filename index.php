@@ -153,7 +153,9 @@
                 </p>
               </div>
               <div class="col-xs-12 col-sm-5">
-                <?php include "sections/socialbuttons.php" ?>
+                <div class="pull-right">
+                  <?php include "sections/socialbuttons.php" ?>
+                </div>
               </div>
             </div>
           </div>
@@ -183,15 +185,6 @@
   -->
 
 <script type="text/javascript" src="./main.0cf8b554.js"></script>
-
-<?php /*
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
-  <script>
-  $(function() {
-  $('#foto-andreu').attr('src', './assets/images/<?= $nosotros[0]['img-mobile'] ?>')
-  });
-  </script>
-*/ ?>
 
 </body>
 </html>
